@@ -52,19 +52,29 @@ let _ =
 *)
 
 let seconds_to_string seconds =
-   if seconds > 59 then
+   if seconds >= 60 then
       let mins = seconds / 60 in
       let secs = seconds - (mins * 60) in
-	 if mins > 59 then
+	 if mins >= 60 then
 	    let hours = mins / 60 in
 	    let mins1 = mins - (hours * 60) in
-	       if hours > 24 then
+	       if hours >= 24 then
 		  let days = hours / 24 in
 		  let hours1 = hours - (days * 24) in
-		     days, hours1, mins1, secs
+		     if days >= 30 then
+			let month = days / 30 in
+			let days1 = days - (month * 30) in
+			   if month >= 12 then
+			      let year = month / 12 in
+			      let month1 = month - (year * 12) in
+				 year, month1, days1, hours1, mins1, secs
+			   else
+			      0, month, days1, hours1, mins1, secs
+		     else
+			0, 0, days, hours1, mins1, secs
 	       else
-		  0, hours, mins1, secs
+		  0, 0, 0, hours, mins1, secs
 	 else
-	    0, 0, mins, secs
+	    0, 0, 0, 0, mins, secs
    else 
-      0, 0, 0, seconds
+      0, 0, 0, 0, 0, seconds
