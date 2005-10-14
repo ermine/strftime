@@ -46,11 +46,6 @@ let strftime ?(unixtime=0.0) ?tm ?(tz=0) fmt:string =
       (try tm_parse 0 with _ -> ());
       Buffer.contents buffer
 
-(*
-let _ =
-   print_endline (Strftime.strftime ~tz:4 "%Y%m%d-%T MSD")
-*)
-
 let seconds_to_string seconds =
    if seconds >= 60 then
       let mins = seconds / 60 in
