@@ -1,0 +1,23 @@
+.PHONY: makelib install clean
+
+FILES[] =
+   strftime
+
+LIB = strftime
+
+.DEFAULT: $(OCamlLibrary $(LIB), $(FILES))
+
+open ../../config
+
+IFILES[] =
+   strftime
+
+ALIBS[] =
+
+LibInstall(makelib, $(LIB), $(IFILES), $(ALIBS))
+
+install: makelib
+
+clean:
+   $(CLEAN)
+  
