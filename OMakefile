@@ -7,8 +7,6 @@ LIB = strftime
 
 .DEFAULT: $(OCamlLibrary $(LIB), $(FILES))
 
-open ../../config
-
 IFILES[] =
    strftime
 
