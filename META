@@ -1,6 +1,0 @@
-description = "Simple strftime library"
-requires = "unix"
-version = "1"
-archive(byte) = "strftime.cma"
-archive(native) = "strftime.cmxa"
-
