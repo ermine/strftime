@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: 17b01d761e494a935b72be54111e2f09)
+version = "0.1"
+description = "C strftime-like function"
+archive(byte) = "strftime.cma"
+archive(native) = "strftime.cmxa"
+exists_if = "strftime.cma"
+# OASIS_STOP
+

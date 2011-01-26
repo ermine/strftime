@@ -1,0 +1,19 @@
+OASISFormat: 0.2
+Name:        strftime
+Version:     0.1
+Synopsis:    C strftime-like function
+Authors:     Anastasia Gornostaeva
+License:     BSD3
+LicenseFile: LICENCE
+Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
+
+Library strftime
+  Path:       .
+  BuildTools: ocamlbuild
+  Modules:    Strftime
+
+SourceRepository github
+  Type:     git
+  Location: git://github.com/ermine/strftime.git
+  Browser:  https://github.com/ermine/strftime
+  
