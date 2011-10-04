@@ -1,5 +1,5 @@
 OASISFormat: 0.2
-Name:        strftime
+Name:        erm_strftime
 Version:     0.1
 Synopsis:    C strftime-like function
 Authors:     Anastasia Gornostaeva
@@ -7,7 +7,7 @@ License:     BSD3
 LicenseFile: LICENCE
 Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
 
-Library strftime
+Library erm_strftime
   Path:       .
   BuildTools: ocamlbuild
   Modules:    Strftime

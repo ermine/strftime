@@ -1,5 +1,5 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 56fa056903b419cb768c6e8fe0be4013) *)
-Authors of strftime
+(* DO NOT EDIT (digest: a4eb1ec2ef1927aef609b5a645aacd3e) *)
+Authors of erm_strftime
 Anastasia Gornostaeva
 (* OASIS_STOP *)

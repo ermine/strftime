@@ -1,9 +1,9 @@
 # OASIS_START
-# DO NOT EDIT (digest: 17b01d761e494a935b72be54111e2f09)
+# DO NOT EDIT (digest: e812ee95020173ed166f42a97715a6f3)
 version = "0.1"
 description = "C strftime-like function"
-archive(byte) = "strftime.cma"
-archive(native) = "strftime.cmxa"
-exists_if = "strftime.cma"
+archive(byte) = "erm_strftime.cma"
+archive(native) = "erm_strftime.cmxa"
+exists_if = "erm_strftime.cma"
 # OASIS_STOP
 

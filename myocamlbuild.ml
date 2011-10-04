@@ -1,5 +1,5 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 2b01974e6f7f69bda01fd3393c4d6d8e) *)
+(* DO NOT EDIT (digest: 026f488c476a121548f5d9a5dc639aad) *)
 module OASISGettext = struct
 # 21 "/usr/home/ermine/projects/ocaml/src/oasis/src/oasis/OASISGettext.ml"
   
@@ -450,7 +450,11 @@ end
 
 open Ocamlbuild_plugin;;
 let package_default =
-  {MyOCamlbuildBase.lib_ocaml = [("strftime", [])]; lib_c = []; flags = []; }
+  {
+     MyOCamlbuildBase.lib_ocaml = [("erm_strftime", [])];
+     lib_c = [];
+     flags = [];
+     }
   ;;
 
 let dispatch_default = MyOCamlbuildBase.dispatch_default package_default;;

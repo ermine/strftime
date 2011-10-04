@@ -1,6 +1,6 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 72cbe773cb212f5a8b3b12c856500f48) *)
-This is the INSTALL file for the strftime distribution.
+(* DO NOT EDIT (digest: 1b3d6a17d0e6b2fda5e2f822e9b970b3) *)
+This is the INSTALL file for the erm_strftime distribution.
 
 This package uses OASIS to generate its build system. See section OASIS for
 full information. 

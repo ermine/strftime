@@ -1,6 +1,6 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 7872b237702e5187c4da0550aeab3dd2) *)
-This is the README file for the strftime distribution.
+(* DO NOT EDIT (digest: 8ece266290fb0609dcaf734c880eb92c) *)
+This is the README file for the erm_strftime distribution.
 
 C strftime-like function
 
