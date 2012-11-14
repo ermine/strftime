@@ -1,9 +1,11 @@
 # OASIS_START
-# DO NOT EDIT (digest: e812ee95020173ed166f42a97715a6f3)
+# DO NOT EDIT (digest: 429c030c14b02204c98404cce82f732e)
 version = "0.1"
 description = "C strftime-like function"
 archive(byte) = "erm_strftime.cma"
+archive(byte, plugin) = "erm_strftime.cma"
 archive(native) = "erm_strftime.cmxa"
+archive(native, plugin) = "erm_strftime.cmxs"
 exists_if = "erm_strftime.cma"
 # OASIS_STOP
 
